@@ -51,7 +51,7 @@ function songDecoder(song){
   return decodedSong;
 }
 
-// Solutions
+// Alternative solutions
 
 function songDecoder(song){
   return song.replace(/(WUB)+/g," ").trim()
