@@ -17,7 +17,7 @@ function digPow(n, p){
   return -1;
 }
 
-// Solutions
+// Alternative solutions
 
 function digPow(n, p) {
   var x = String(n).split("").reduce((s, d, i) => s + Math.pow(d, p + i), 0)
