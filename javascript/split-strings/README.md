@@ -5,4 +5,5 @@ Complete the solution so that it splits the string into pairs of two characters.
 ## Examples:
 
 > solution('abc') // should return ['ab', 'c_']
+
 > solution('abcdef') // should return ['ab', 'cd', 'ef']
